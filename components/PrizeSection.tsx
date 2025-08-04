@@ -18,9 +18,9 @@ const PrizeSection: React.FC = () => {
         <p className="text-gray-600 mt-2">Raih hadiah menarik untuk para pemenang!</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-          <PrizeCard rank="1" color="#FFD700" details="Uang Tunai + Bingkisan Spesial" />
-          <PrizeCard rank="2" color="#C0C0C0" details="Uang Tunai + Bingkisan Menarik" />
-          <PrizeCard rank="3" color="#CD7F32" details="Uang Tunai + Bingkisan Hiburan" />
+          <PrizeCard rank="1" color="#FFD700" details="Bingkisan Spesial" />
+          <PrizeCard rank="2" color="#C0C0C0" details="Bingkisan Menarik" />
+          <PrizeCard rank="3" color="#CD7F32" details="Bingkisan Hiburan" />
       </div>
     </section>
   );
